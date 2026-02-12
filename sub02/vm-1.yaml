@@ -16,7 +16,7 @@ spec:
           resources:
             requests:
               storage: 30Gi
-          storag seClassName: managed-csi
+          storageClassName: managed-csi
   instancetype:
     kind: virtualmachineclusterinstancetype
     name: u1.medium
