@@ -2,34 +2,6 @@ apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   name: argo-test
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:status':
-          'f:preferenceRef':
-            .: {}
-            'f:controllerRevisionRef':
-              .: {}
-              'f:name': {}
-            'f:kind': {}
-            'f:name': {}
-          'f:printableStatus': {}
-          'f:runStrategy': {}
-          'f:conditions': {}
-          .: {}
-          'f:instancetypeRef':
-            .: {}
-            'f:controllerRevisionRef':
-              .: {}
-              'f:name': {}
-            'f:kind': {}
-            'f:name': {}
-          'f:volumeSnapshotStatuses': {}
-          'f:observedGeneration': {}
-          'f:desiredGeneration': {}
-      manager: virt-controller
-      operation: Update
-      subresource: status
-      time: '2026-01-21T14:44:21Z'
   namespace: not-exist
 spec:
   dataVolumeTemplates:
