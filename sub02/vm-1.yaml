@@ -2,7 +2,7 @@ apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
   name: argo-test
-  namespace: not-exist
+  namespace: default
 spec:
   dataVolumeTemplates:
     - metadata:
