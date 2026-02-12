@@ -50,7 +50,7 @@ spec:
       subdomain: headless
       volumes:
         - dataVolume:
-            name: from-sub02-rhel8-volume
+            name: argo-test
           name: rootdisk
         - cloudInitNoCloud:
             userData: |
