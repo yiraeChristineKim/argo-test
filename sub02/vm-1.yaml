@@ -23,6 +23,7 @@ spec:
   preference:
     kind: virtualmachineclusterpreference
     name: rhel.8
+  running: true
   runStrategy: Manual
   template:
     metadata:
