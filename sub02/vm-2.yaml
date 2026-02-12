@@ -22,7 +22,7 @@ spec:
   preference:
     kind: virtualmachineclusterpreference
     name: rhel.8
-  runStrategy: Halted
+  runStrategy: Manual
   template:
     metadata:
       labels:
