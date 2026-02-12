@@ -16,7 +16,7 @@ spec:
           resources:
             requests:
               storage: 30Gi
-          storageClassName: managed-csi
+          storag seClassName: managed-csi
   instancetype:
     kind: virtualmachineclusterinstancetype
     name: u1.medium
@@ -24,6 +24,7 @@ spec:
     kind: virtualmachineclusterpreference
     name: rhel.8
   running: true
+  runStrategy: Manual
   template:
     metadata:
       labels:
