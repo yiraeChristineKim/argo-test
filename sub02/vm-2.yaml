@@ -1,11 +1,11 @@
 apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
-  name: argo-2
+  name: sub02-test-2
 spec:
   dataVolumeTemplates:
     - metadata:
-        name: argo-2
+        name: sub02-test-2
       spec:
         sourceRef:
           kind: DataSource
@@ -49,7 +49,7 @@ spec:
       subdomain: headless
       volumes:
         - dataVolume:
-            name: argo-2
+            name: sub02-test-2
           name: rootdisk
         - cloudInitNoCloud:
             userData: |

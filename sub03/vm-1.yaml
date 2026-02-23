@@ -1,12 +1,12 @@
 apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
-  name: sub02-test
+  name: sub03-test
   namespace: default
 spec:
   dataVolumeTemplates:
     - metadata:
-        name: sub02-test
+        name: sub03-test
       spec:
         sourceRef:
           kind: DataSource
@@ -50,7 +50,7 @@ spec:
       subdomain: headless
       volumes:
         - dataVolume:
-            name: sub02-test
+            name: sub03-test
           name: rootdisk
         - cloudInitNoCloud:
             userData: |
